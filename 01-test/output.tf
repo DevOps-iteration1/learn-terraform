@@ -5,3 +5,6 @@ variable "Adwaith" {
 output "Output"{
   value = var.Adwaith
 }
+
+
+
