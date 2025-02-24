@@ -18,7 +18,7 @@ variable "colors" {
 }
 
 resource "aws_instance" "frontend" {
-  for_each = var.instance_types
+  for_each      = var.instance_types
   ami           = var.ami
   instance_type = var.instance_types["instance_type"]
   tags = {
